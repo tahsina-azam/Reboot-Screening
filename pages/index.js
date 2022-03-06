@@ -112,7 +112,7 @@ const Snake = () => {
   const [food, setFood] = useState({x:4,y:10});
   const [food1,setFood1]=useState({x:10,y:4});
   const [food2,setFood2]=useState({x:14,y:15});
-  const [food3,setFood3]=useState({x:18,y:20});
+  const [food3,setFood3]=useState({x:18,y:21});
   const [score, setScore] = useState(0);
 
   const isDead=(newHead)=>{
